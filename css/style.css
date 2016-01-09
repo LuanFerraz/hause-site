@@ -1,0 +1,400 @@
+@font-face {
+    font-family: existence;
+    src: url("../fonts/existence.otf") format("truetype");
+}
+@font-face {
+    font-family: gothambook;
+    src: url("../fonts/gothambook.ttf") format("truetype");
+}
+
+
+/*
+    -----------------------------------------------Home-------------------------------------------
+*/
+
+/*
+	Define imagem de background da home, o tamanho do background e a cor da fonte nos texto presentes na home
+*/
+#home {
+    background-image: url("../images/imagem_mao2.png");
+    background-size: auto 100%;
+    width: auto;
+    height: 900px;
+    color: white;
+}
+
+#menu {
+	background:transparent;
+	background-padding:0px;
+    background-size: auto 20%;
+    width: auto;
+    color: white;
+}
+
+/*alinhamento dos textos na div de id head*/
+#head{
+    margin-top:1%;
+    text-align: center;
+}
+
+/*Define que a imagem de logo da hause flutuara a esquerda*/
+.logo_container{
+    //float:left;
+}
+
+/*Define altura e largura da imagem logo_hause na home*/
+.logo_container .logo_hause {
+    height: auto;
+    width: 60px;
+}
+
+
+/*Define a familia de fonte e o tamanho da palavra "Hause" na home*/
+.logo_container span {
+    font-family: existence;
+	font-size:24px;
+}
+
+/*Define a familia e a cor das fontes no menu e que todos ficarao com letras maiusculas*/
+.nav.nav-pills a{
+    font-family: gothambook;
+    text-transform: uppercase;
+    color:#eee;
+}
+
+/*Define tamanho da fonte do menu*/
+.head_menu {
+    font-size: 13px;
+}
+
+/*Define que o menu sera uma lista nao ordenada na horizontal*/
+.head_menu > ul {
+    display: inline-block;
+}
+
+/*Define que os links no menu ficarao com a fonte preta ao passar o mouse em cima*/
+.head_menu a:hover, .head_menu a:focus{
+    color:black;
+}
+
+/*Define tamanho das imagens no menu de redes sociais*/
+.social_menu > a > img{
+    width:20px;
+}
+
+/*Define familia e cor de fonte; altura, largura, ainhamento de texto e margem superior dos elementos na div com id presentation*/
+#presentation{
+    font-family: existence;
+    color:white;
+    height: 500px;
+	width: auto;
+    text-align: center;
+    margin-top:10%
+}
+
+/*Define tamanho da fonte do texto "Quer um bom servico? Ta em casa"*/
+#presentation h3{
+    font-size: 38px
+}
+
+/*Define tamanho da fonte do texto "Uma nova empresa oferecendo o melhor servico"*/
+#presentation h4{
+    font-size: 20px
+}
+
+/*Define largura, margem, posicionato e margem superior do botao "saiba mais"*/
+.button-saiba{
+    width: 50%;
+    margin: 0 auto;
+    position:relative;
+    margin-top:5%;
+}
+
+/*Define a borda e a cor do botao saiba mais*/
+.button-saiba > a {
+    border: 3px solid white;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 20px;
+}
+
+
+/*
+    -----------------------------------------------Info (MICASA)-------------------------------------------
+*/
+
+/*Define largura, altura e cor da fonte na div info (mi casa es su casa)*/
+#info {
+    width: auto;
+    height: 900px;
+    color: #a3a3a3;
+    
+}
+
+/*
+	Formatacao do titulo MI CASA �S SU CASA
+*/
+.micasa > .col-md-12 h1 {
+    font-family: gothambook;
+	color:black;
+}
+
+/*
+	Formatacao da imagem logo hause
+*/
+
+.info_logo_texto > .col-md-6 img {
+    height: auto;
+    width: 120px;
+    margin: 0 auto;
+    position:relative;
+    margin-top:2%;
+	right:-30%;
+}
+
+/*
+	Formatação da palava Hause na div info_logo_texto.
+*/
+
+.info_logo_texto > .col-md-6 span {
+    font-family: existence;
+	color:#333333;
+	margin: 0 auto;
+    position:relative;
+	right:-30%;
+}
+
+/*
+	Formatação da frase Criada em 2015...
+*/
+
+.info_logo_texto > .col-md-6 p {
+    font-family: existence;
+    font-size:20px;
+    color:#333333;
+    text-align: right;
+    margin: 0 auto;
+    position:relative;
+    margin-right:30%;
+	margin-top:5%;
+	margin-bottom:8%;
+}
+
+.teclado > .teclado-foto{
+    background-image: url("../images/mac_tec.jpg");
+    background-size: 100% 100%;
+    height: 380px;
+}
+
+
+
+/*
+    ----------------------------------------------- Servicos -------------------------------------------
+*/
+
+/*Define largura, margem superior e margem inferior da div com id services*/
+#servicos {
+    width: auto;
+	margin-top: 0%;
+	margin-bottom: 20%;
+}
+
+
+/*Define familia, tamanho, alinhamento e cor da fonte do titulo "PRINCPAIS SERVICOS*/
+.head_servicos > .col-md-12 > h2 {
+    font-family: gothambook;
+    font-size: 36px;
+	text-align:center;
+	color:#333333;
+}
+
+/*Define familia, tamanho, alinhamento, cor e margem inferior da fonte do subtitulo "Fique por dentro*/
+.head_servicos > .col-md-12 > h4 {
+    font-family:existence;
+	font-size: 24px;
+	text-align:center;
+	color:#333333;
+	margin-bottom:6%;
+}
+
+
+
+/* Define altura, largura, margem, posicionamento, margem superior das 3 imagens de principais servicos*/
+.imagens_servicos > .col-md-4 img {
+  height: 25%;
+  width: 25%;
+  margin: 0 auto;
+  position:relative;
+  margin-top:2%;
+  right:-20%;
+}
+
+/* Define familia, alinhamento e cor da fonte dos 3 textos de principais servicos, alem de margens e posicionamento da div*/
+
+.col-md-4 span{
+  font-family:existence;
+  text-align:center;
+  color:black;
+  margin: 0 auto;
+  position:relative;
+  margin-top:2%;
+  right:-20%;
+}
+
+
+/*
+    ----------------------------------------------- Contato -------------------------------------------
+*/
+
+
+/*Define background preto e margim inferior para parte de cima da div contato*/
+.head_contato{
+	background:black;
+	margin-bottom:2%;
+
+}
+
+/*Define familia, tamanho e cor da fonte do titulo "CONTATO"*/
+.head_contato > .col-md-12 > h3 {
+    font-family: gothambook;
+    font-size: 32px;
+	color:#FFF;
+}
+
+/*Define altura e margem inferior da div fale_conosco*/
+.fale_conosco{
+	 height: auto;
+	 margin-bottom: 3%;
+}
+
+/*Define familia e cor da fonte do titulo "FALE CONOSCO"*/
+.fale_conosco > .col-md-12 > h2{
+	font-family: gothambook;
+	color:#333333;
+}
+
+/*Define familia e cor da fonte do titulo "Tire suas maiores duvidas aqui"*/
+.fale_conosco > .col-md-12 > h4{
+	font-family: existence;
+	 color:#000;
+}
+
+/*Define familia, cor e tamanho da fonte dos labels do formulario*/
+.campos > .col-md-12 > .form-horizontal > .form-group > label {
+	 font-family: existence;
+	 color:#000;
+	 font-size:16px;
+	 
+}
+
+/*Define familia, cor e tamanho da fonte do label "Mensagem" formulario*/
+.campos > .col-md-12 > .form-horizontal > .msg > label{
+	font-family: existence;
+	 font-size:16px;
+	 color:#000;
+	 margin: 0 auto;
+     position:relative;
+     margin-top:0%;
+	 right:-10%;
+}
+
+
+/*Define largura, cor de fundo, cor e familia da fonte; bordas dos campos de digitacao*/
+.campos > .col-md-12 > .form-horizontal > .form-group > .col-sm-10 > input {
+	width:40%;
+	background: linear-gradient(to bottom, #dbdbdb, #c6c4c4);
+	color:#333333;
+	font-family: existence;
+	border-color:#FFF;
+	border-radius:0px;
+}
+
+
+/*Define formatacao do campo de mensagem*/
+.campos > .col-md-12 > .form-horizontal > .msg > textarea {
+	width:80%;
+	height:200px;
+	background: linear-gradient(to bottom, #dbdbdb, #c6c4c4);
+	color:black;
+	font-family: existence;
+	border-color:#FFF;
+	border-radius:0px;
+	margin: 0 auto;
+    position:relative;
+    margin-top:0%;
+	right:12;
+    
+}
+
+
+/*Define formatacao do botao enviar*/
+.campos > .col-md-12 > .form-horizontal > .msg > button {
+	 font-family: existence;
+    margin: 0 auto;
+    position:relative;
+    margin-top:2%;
+	margin-bottom:8%;
+	border: 3px solid #333333;
+	color:#000;
+	background:#dbdbdb;
+    border-radius: 5px;
+    padding: 5px 20px;
+	right:-48%;
+}
+
+/*Define efeito quando passar o mouse no botao enviar*/
+.campos > .col-md-12 > .form_msg > .form-group > button:hover {
+	color:#FFF;
+}
+
+/*Define formatacao da parte inferior da div de contato*/
+
+.footer{
+	height: auto;
+	width: auto;
+	background: #000;
+	
+}
+
+/*Define o tamanho e posicionamento do logo da hause na parte inferior de contato*/
+.footer img{
+	height: auto;
+    width: 60px;
+	right:-48%;
+	margin: 0 auto;
+    position:relative;
+}
+
+/*Define a familia de fonte e o tamanho da palavra "Hause" na parte inferior de contato*/
+.footer span {
+    font-family: existence;
+	font-size:24px;
+	color:#FFF;
+	right:-48%;
+	margin: 0 auto;
+    position:relative;
+}
+
+/*Define a fonte da frase Produzido por hause...*/
+.footer h4{
+	font-family:existence;
+	color:#FFF;
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
